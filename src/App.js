@@ -13,6 +13,7 @@ function App() {
 
   const addItem = (item) => {
     // verilen itemi sepete ekleyin
+    setCart([...cart, item]);
   };
 
   return (
@@ -22,7 +23,7 @@ function App() {
       {/* Routelar */}
       <main className="content">
         <Route exact path="/">
-          <Products products={products} addItem={addItem} />
+          <Products />
         </Route>
 
         <Route path="/cart">
