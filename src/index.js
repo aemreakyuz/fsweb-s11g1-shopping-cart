@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
 import { ProductContextProvider } from "./contexts/ProductContext";
-import { CartContextProvider } from "./contexts/CartContext";
+import CartContextProvider from "./contexts/CartContext.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

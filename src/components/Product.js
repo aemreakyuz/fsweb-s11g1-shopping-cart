@@ -1,7 +1,7 @@
 import React from "react";
 import { ScProduct } from "./scParts";
 import { useContext } from "react";
-import { ProductContext } from "../contexts/ProductContext";
+
 import { CartContext } from "../contexts/CartContext";
 
 const Product = ({ product }) => {
